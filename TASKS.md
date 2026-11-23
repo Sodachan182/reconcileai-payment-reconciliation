@@ -47,8 +47,8 @@ Progress checklist for the ReconcileAI MVP. Ticked items were verified by runnin
 ## Phase 10–11 — Docs and publication
 - [x] README, ARCHITECTURE, MATCHING_ALGORITHM, EVALUATION, DESIGN_SYSTEM, DEMO_SCRIPT, SECURITY
 - [x] Secret and private-data scan of staged files
-- [ ] Public GitHub repository created and pushed
-- [ ] GitHub Actions run checked
+- [x] Public GitHub repository created and pushed: https://github.com/Sodachan182/reconcileai-payment-reconciliation
+- [x] GitHub Actions checked: the first run failed (an unanchored `reports/` ignore rule had excluded `src/reconcileai/reports/`). Fixed in `ae72599`; run 45145230227 passed on Ubuntu and Windows
 
 ## Known gaps (not implemented)
 - Multi-user authentication, exchange-rate conversion, bank APIs, OCR (out of MVP scope)
