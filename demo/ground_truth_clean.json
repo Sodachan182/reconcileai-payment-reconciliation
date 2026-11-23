@@ -1,0 +1,2030 @@
+{
+  "description": "Ground truth written by the generator from the constructed scenarios (fictional data).",
+  "seed": 2026,
+  "challenging": false,
+  "currency": "VND",
+  "order_count": 300,
+  "bank_line_count": 285,
+  "scenario_counts": {
+    "exact_reference": 240,
+    "no_reference": 45,
+    "missing_payment": 15
+  },
+  "associations": [
+    {
+      "order_id": "ORD2026-00001",
+      "txn_id": "TXN-000267",
+      "amount": "1403000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00002",
+      "txn_id": "TXN-000190",
+      "amount": "2802000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00003",
+      "txn_id": "TXN-000216",
+      "amount": "1253000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00004",
+      "txn_id": "TXN-000171",
+      "amount": "852000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00005",
+      "txn_id": "TXN-000239",
+      "amount": "3669000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00006",
+      "txn_id": "TXN-000091",
+      "amount": "975000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00007",
+      "txn_id": "TXN-000027",
+      "amount": "815000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00008",
+      "txn_id": "TXN-000191",
+      "amount": "1169000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00009",
+      "txn_id": "TXN-000196",
+      "amount": "746000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00010",
+      "txn_id": "TXN-000121",
+      "amount": "522000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00011",
+      "txn_id": "TXN-000073",
+      "amount": "3071000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00012",
+      "txn_id": "TXN-000100",
+      "amount": "556000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00013",
+      "txn_id": "TXN-000247",
+      "amount": "2703000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00014",
+      "txn_id": "TXN-000268",
+      "amount": "6313000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00015",
+      "txn_id": "TXN-000115",
+      "amount": "16533000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00017",
+      "txn_id": "TXN-000108",
+      "amount": "1576000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00018",
+      "txn_id": "TXN-000109",
+      "amount": "799000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00019",
+      "txn_id": "TXN-000165",
+      "amount": "5689000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00020",
+      "txn_id": "TXN-000229",
+      "amount": "1088000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00021",
+      "txn_id": "TXN-000038",
+      "amount": "1249000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00022",
+      "txn_id": "TXN-000172",
+      "amount": "928000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00023",
+      "txn_id": "TXN-000204",
+      "amount": "512000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00024",
+      "txn_id": "TXN-000143",
+      "amount": "2786000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00027",
+      "txn_id": "TXN-000181",
+      "amount": "4844000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00028",
+      "txn_id": "TXN-000062",
+      "amount": "2933000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00030",
+      "txn_id": "TXN-000217",
+      "amount": "2966000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00031",
+      "txn_id": "TXN-000218",
+      "amount": "4118000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00032",
+      "txn_id": "TXN-000240",
+      "amount": "553000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00033",
+      "txn_id": "TXN-000084",
+      "amount": "321000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00034",
+      "txn_id": "TXN-000051",
+      "amount": "3525000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00035",
+      "txn_id": "TXN-000248",
+      "amount": "1357000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00036",
+      "txn_id": "TXN-000271",
+      "amount": "1001000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00037",
+      "txn_id": "TXN-000166",
+      "amount": "847000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00038",
+      "txn_id": "TXN-000136",
+      "amount": "541000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00039",
+      "txn_id": "TXN-000144",
+      "amount": "4350000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00040",
+      "txn_id": "TXN-000280",
+      "amount": "1506000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00041",
+      "txn_id": "TXN-000092",
+      "amount": "3685000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00042",
+      "txn_id": "TXN-000018",
+      "amount": "1010000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00043",
+      "txn_id": "TXN-000205",
+      "amount": "1666000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00044",
+      "txn_id": "TXN-000262",
+      "amount": "863000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00045",
+      "txn_id": "TXN-000249",
+      "amount": "661000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00046",
+      "txn_id": "TXN-000263",
+      "amount": "1536000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00047",
+      "txn_id": "TXN-000227",
+      "amount": "1136000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00048",
+      "txn_id": "TXN-000254",
+      "amount": "3421000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00049",
+      "txn_id": "TXN-000241",
+      "amount": "2539000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00050",
+      "txn_id": "TXN-000125",
+      "amount": "3121000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00051",
+      "txn_id": "TXN-000078",
+      "amount": "4927000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00052",
+      "txn_id": "TXN-000052",
+      "amount": "728000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00053",
+      "txn_id": "TXN-000033",
+      "amount": "550000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00054",
+      "txn_id": "TXN-000131",
+      "amount": "979000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00055",
+      "txn_id": "TXN-000093",
+      "amount": "640000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00056",
+      "txn_id": "TXN-000255",
+      "amount": "1399000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00057",
+      "txn_id": "TXN-000137",
+      "amount": "4797000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00058",
+      "txn_id": "TXN-000272",
+      "amount": "4349000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00059",
+      "txn_id": "TXN-000210",
+      "amount": "991000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00060",
+      "txn_id": "TXN-000159",
+      "amount": "1324000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00061",
+      "txn_id": "TXN-000206",
+      "amount": "1226000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00062",
+      "txn_id": "TXN-000110",
+      "amount": "1358000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00063",
+      "txn_id": "TXN-000173",
+      "amount": "4362000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00064",
+      "txn_id": "TXN-000079",
+      "amount": "1333000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00065",
+      "txn_id": "TXN-000039",
+      "amount": "874000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00066",
+      "txn_id": "TXN-000074",
+      "amount": "375000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00067",
+      "txn_id": "TXN-000085",
+      "amount": "1860000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00068",
+      "txn_id": "TXN-000273",
+      "amount": "824000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00069",
+      "txn_id": "TXN-000116",
+      "amount": "406000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00070",
+      "txn_id": "TXN-000197",
+      "amount": "1872000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00071",
+      "txn_id": "TXN-000080",
+      "amount": "2023000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00072",
+      "txn_id": "TXN-000152",
+      "amount": "4812000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00073",
+      "txn_id": "TXN-000001",
+      "amount": "900000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00074",
+      "txn_id": "TXN-000256",
+      "amount": "4398000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00075",
+      "txn_id": "TXN-000219",
+      "amount": "671000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00076",
+      "txn_id": "TXN-000160",
+      "amount": "2691000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00077",
+      "txn_id": "TXN-000145",
+      "amount": "611000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00078",
+      "txn_id": "TXN-000007",
+      "amount": "646000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00079",
+      "txn_id": "TXN-000040",
+      "amount": "1075000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00080",
+      "txn_id": "TXN-000086",
+      "amount": "11447000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00082",
+      "txn_id": "TXN-000008",
+      "amount": "833000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00083",
+      "txn_id": "TXN-000153",
+      "amount": "431000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00084",
+      "txn_id": "TXN-000063",
+      "amount": "1325000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00085",
+      "txn_id": "TXN-000094",
+      "amount": "3652000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00086",
+      "txn_id": "TXN-000220",
+      "amount": "1248000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00087",
+      "txn_id": "TXN-000174",
+      "amount": "2082000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00088",
+      "txn_id": "TXN-000064",
+      "amount": "2284000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00089",
+      "txn_id": "TXN-000087",
+      "amount": "1228000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00090",
+      "txn_id": "TXN-000281",
+      "amount": "1139000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00091",
+      "txn_id": "TXN-000013",
+      "amount": "1740000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00092",
+      "txn_id": "TXN-000154",
+      "amount": "880000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00093",
+      "txn_id": "TXN-000014",
+      "amount": "2130000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00094",
+      "txn_id": "TXN-000126",
+      "amount": "302000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00095",
+      "txn_id": "TXN-000183",
+      "amount": "1885000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00096",
+      "txn_id": "TXN-000022",
+      "amount": "774000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00097",
+      "txn_id": "TXN-000023",
+      "amount": "753000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00098",
+      "txn_id": "TXN-000028",
+      "amount": "2398000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00099",
+      "txn_id": "TXN-000065",
+      "amount": "2528000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00100",
+      "txn_id": "TXN-000167",
+      "amount": "3762000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00101",
+      "txn_id": "TXN-000111",
+      "amount": "530000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00102",
+      "txn_id": "TXN-000221",
+      "amount": "720000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00103",
+      "txn_id": "TXN-000041",
+      "amount": "2434000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00104",
+      "txn_id": "TXN-000112",
+      "amount": "1325000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00105",
+      "txn_id": "TXN-000211",
+      "amount": "3533000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00106",
+      "txn_id": "TXN-000053",
+      "amount": "1407000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00107",
+      "txn_id": "TXN-000066",
+      "amount": "605000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00108",
+      "txn_id": "TXN-000029",
+      "amount": "2085000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00109",
+      "txn_id": "TXN-000274",
+      "amount": "1209000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00111",
+      "txn_id": "TXN-000088",
+      "amount": "5192000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00112",
+      "txn_id": "TXN-000081",
+      "amount": "655000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00113",
+      "txn_id": "TXN-000009",
+      "amount": "3566000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00116",
+      "txn_id": "TXN-000257",
+      "amount": "17076000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00117",
+      "txn_id": "TXN-000146",
+      "amount": "3737000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00118",
+      "txn_id": "TXN-000264",
+      "amount": "861000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00119",
+      "txn_id": "TXN-000192",
+      "amount": "272000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00120",
+      "txn_id": "TXN-000138",
+      "amount": "505000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00121",
+      "txn_id": "TXN-000242",
+      "amount": "308000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00122",
+      "txn_id": "TXN-000198",
+      "amount": "1112000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00123",
+      "txn_id": "TXN-000265",
+      "amount": "2655000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00124",
+      "txn_id": "TXN-000127",
+      "amount": "3577000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00125",
+      "txn_id": "TXN-000122",
+      "amount": "1690000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00126",
+      "txn_id": "TXN-000082",
+      "amount": "858000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00127",
+      "txn_id": "TXN-000034",
+      "amount": "445000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00128",
+      "txn_id": "TXN-000042",
+      "amount": "1057000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00129",
+      "txn_id": "TXN-000230",
+      "amount": "1377000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00130",
+      "txn_id": "TXN-000095",
+      "amount": "2495000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00132",
+      "txn_id": "TXN-000024",
+      "amount": "277000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00133",
+      "txn_id": "TXN-000243",
+      "amount": "1845000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00134",
+      "txn_id": "TXN-000101",
+      "amount": "1663000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00135",
+      "txn_id": "TXN-000175",
+      "amount": "940000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00136",
+      "txn_id": "TXN-000184",
+      "amount": "408000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00137",
+      "txn_id": "TXN-000132",
+      "amount": "1065000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00138",
+      "txn_id": "TXN-000139",
+      "amount": "1203000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00139",
+      "txn_id": "TXN-000185",
+      "amount": "6879000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00140",
+      "txn_id": "TXN-000043",
+      "amount": "860000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00141",
+      "txn_id": "TXN-000083",
+      "amount": "2049000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00142",
+      "txn_id": "TXN-000035",
+      "amount": "2141000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00143",
+      "txn_id": "TXN-000155",
+      "amount": "1717000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00144",
+      "txn_id": "TXN-000044",
+      "amount": "2106000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00145",
+      "txn_id": "TXN-000045",
+      "amount": "2313000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00146",
+      "txn_id": "TXN-000231",
+      "amount": "2433000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00147",
+      "txn_id": "TXN-000102",
+      "amount": "637000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00148",
+      "txn_id": "TXN-000067",
+      "amount": "1542000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00149",
+      "txn_id": "TXN-000123",
+      "amount": "1870000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00150",
+      "txn_id": "TXN-000019",
+      "amount": "343000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00151",
+      "txn_id": "TXN-000161",
+      "amount": "4395000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00153",
+      "txn_id": "TXN-000089",
+      "amount": "6223000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00154",
+      "txn_id": "TXN-000140",
+      "amount": "1249000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00155",
+      "txn_id": "TXN-000186",
+      "amount": "1636000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00156",
+      "txn_id": "TXN-000147",
+      "amount": "2637000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00157",
+      "txn_id": "TXN-000046",
+      "amount": "1355000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00158",
+      "txn_id": "TXN-000113",
+      "amount": "576000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00159",
+      "txn_id": "TXN-000025",
+      "amount": "614000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00160",
+      "txn_id": "TXN-000128",
+      "amount": "613000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00161",
+      "txn_id": "TXN-000148",
+      "amount": "1588000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00162",
+      "txn_id": "TXN-000232",
+      "amount": "1959000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00163",
+      "txn_id": "TXN-000233",
+      "amount": "576000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00164",
+      "txn_id": "TXN-000222",
+      "amount": "1416000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00165",
+      "txn_id": "TXN-000103",
+      "amount": "2561000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00166",
+      "txn_id": "TXN-000117",
+      "amount": "4198000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00167",
+      "txn_id": "TXN-000004",
+      "amount": "1002000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00168",
+      "txn_id": "TXN-000234",
+      "amount": "1064000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00169",
+      "txn_id": "TXN-000141",
+      "amount": "967000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00170",
+      "txn_id": "TXN-000212",
+      "amount": "1102000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00171",
+      "txn_id": "TXN-000149",
+      "amount": "2899000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00172",
+      "txn_id": "TXN-000068",
+      "amount": "800000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00173",
+      "txn_id": "TXN-000096",
+      "amount": "2512000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00174",
+      "txn_id": "TXN-000142",
+      "amount": "1145000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00175",
+      "txn_id": "TXN-000282",
+      "amount": "885000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00176",
+      "txn_id": "TXN-000213",
+      "amount": "4118000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00177",
+      "txn_id": "TXN-000285",
+      "amount": "1760000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00178",
+      "txn_id": "TXN-000054",
+      "amount": "1021000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00179",
+      "txn_id": "TXN-000047",
+      "amount": "1253000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00181",
+      "txn_id": "TXN-000275",
+      "amount": "1132000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00183",
+      "txn_id": "TXN-000015",
+      "amount": "604000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00184",
+      "txn_id": "TXN-000069",
+      "amount": "4619000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00185",
+      "txn_id": "TXN-000075",
+      "amount": "618000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00186",
+      "txn_id": "TXN-000114",
+      "amount": "385000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00187",
+      "txn_id": "TXN-000250",
+      "amount": "299000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00188",
+      "txn_id": "TXN-000036",
+      "amount": "1998000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00189",
+      "txn_id": "TXN-000150",
+      "amount": "930000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00190",
+      "txn_id": "TXN-000002",
+      "amount": "1191000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00191",
+      "txn_id": "TXN-000235",
+      "amount": "1401000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00192",
+      "txn_id": "TXN-000010",
+      "amount": "4766000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00193",
+      "txn_id": "TXN-000055",
+      "amount": "3259000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00194",
+      "txn_id": "TXN-000276",
+      "amount": "1226000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00195",
+      "txn_id": "TXN-000056",
+      "amount": "378000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00196",
+      "txn_id": "TXN-000258",
+      "amount": "1409000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00197",
+      "txn_id": "TXN-000187",
+      "amount": "1504000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00198",
+      "txn_id": "TXN-000097",
+      "amount": "640000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00199",
+      "txn_id": "TXN-000020",
+      "amount": "1856000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00200",
+      "txn_id": "TXN-000176",
+      "amount": "1949000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00201",
+      "txn_id": "TXN-000030",
+      "amount": "1714000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00202",
+      "txn_id": "TXN-000223",
+      "amount": "2268000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00203",
+      "txn_id": "TXN-000057",
+      "amount": "2096000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00204",
+      "txn_id": "TXN-000207",
+      "amount": "2702000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00205",
+      "txn_id": "TXN-000129",
+      "amount": "1669000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00206",
+      "txn_id": "TXN-000118",
+      "amount": "4988000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00207",
+      "txn_id": "TXN-000182",
+      "amount": "2267000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00208",
+      "txn_id": "TXN-000011",
+      "amount": "1906000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00209",
+      "txn_id": "TXN-000156",
+      "amount": "3663000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00210",
+      "txn_id": "TXN-000076",
+      "amount": "1955000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00211",
+      "txn_id": "TXN-000251",
+      "amount": "1401000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00212",
+      "txn_id": "TXN-000252",
+      "amount": "2690000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00213",
+      "txn_id": "TXN-000236",
+      "amount": "906000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00214",
+      "txn_id": "TXN-000177",
+      "amount": "1187000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00215",
+      "txn_id": "TXN-000259",
+      "amount": "1872000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00216",
+      "txn_id": "TXN-000199",
+      "amount": "4186000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00217",
+      "txn_id": "TXN-000193",
+      "amount": "768000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00218",
+      "txn_id": "TXN-000016",
+      "amount": "608000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00219",
+      "txn_id": "TXN-000200",
+      "amount": "317000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00220",
+      "txn_id": "TXN-000157",
+      "amount": "885000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00221",
+      "txn_id": "TXN-000104",
+      "amount": "1615000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00222",
+      "txn_id": "TXN-000021",
+      "amount": "915000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00223",
+      "txn_id": "TXN-000168",
+      "amount": "2333000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00224",
+      "txn_id": "TXN-000058",
+      "amount": "1038000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00225",
+      "txn_id": "TXN-000133",
+      "amount": "1129000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00226",
+      "txn_id": "TXN-000048",
+      "amount": "1469000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00227",
+      "txn_id": "TXN-000277",
+      "amount": "2009000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00228",
+      "txn_id": "TXN-000224",
+      "amount": "547000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00229",
+      "txn_id": "TXN-000026",
+      "amount": "1310000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00230",
+      "txn_id": "TXN-000158",
+      "amount": "6670000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00231",
+      "txn_id": "TXN-000049",
+      "amount": "1426000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00232",
+      "txn_id": "TXN-000178",
+      "amount": "1162000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00233",
+      "txn_id": "TXN-000214",
+      "amount": "406000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00234",
+      "txn_id": "TXN-000179",
+      "amount": "3335000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00235",
+      "txn_id": "TXN-000070",
+      "amount": "1085000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00236",
+      "txn_id": "TXN-000269",
+      "amount": "2643000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00237",
+      "txn_id": "TXN-000119",
+      "amount": "1391000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00238",
+      "txn_id": "TXN-000162",
+      "amount": "867000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00239",
+      "txn_id": "TXN-000260",
+      "amount": "1004000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00240",
+      "txn_id": "TXN-000208",
+      "amount": "1171000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00241",
+      "txn_id": "TXN-000278",
+      "amount": "2248000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00242",
+      "txn_id": "TXN-000244",
+      "amount": "1302000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00243",
+      "txn_id": "TXN-000059",
+      "amount": "3281000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00244",
+      "txn_id": "TXN-000188",
+      "amount": "4606000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00245",
+      "txn_id": "TXN-000105",
+      "amount": "565000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00246",
+      "txn_id": "TXN-000189",
+      "amount": "2633000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00247",
+      "txn_id": "TXN-000098",
+      "amount": "2186000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00248",
+      "txn_id": "TXN-000060",
+      "amount": "2199000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00249",
+      "txn_id": "TXN-000209",
+      "amount": "929000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00250",
+      "txn_id": "TXN-000270",
+      "amount": "2525000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00251",
+      "txn_id": "TXN-000245",
+      "amount": "722000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00252",
+      "txn_id": "TXN-000266",
+      "amount": "631000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00253",
+      "txn_id": "TXN-000163",
+      "amount": "5214000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00254",
+      "txn_id": "TXN-000237",
+      "amount": "3654000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00255",
+      "txn_id": "TXN-000071",
+      "amount": "1694000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00256",
+      "txn_id": "TXN-000005",
+      "amount": "1921000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00257",
+      "txn_id": "TXN-000169",
+      "amount": "1283000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00258",
+      "txn_id": "TXN-000201",
+      "amount": "3879000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00259",
+      "txn_id": "TXN-000090",
+      "amount": "1423000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00260",
+      "txn_id": "TXN-000225",
+      "amount": "1365000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00261",
+      "txn_id": "TXN-000099",
+      "amount": "1488000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00262",
+      "txn_id": "TXN-000164",
+      "amount": "1722000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00263",
+      "txn_id": "TXN-000253",
+      "amount": "1619000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00264",
+      "txn_id": "TXN-000031",
+      "amount": "1513000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00265",
+      "txn_id": "TXN-000050",
+      "amount": "3228000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00266",
+      "txn_id": "TXN-000246",
+      "amount": "2388000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00267",
+      "txn_id": "TXN-000106",
+      "amount": "1063000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00268",
+      "txn_id": "TXN-000003",
+      "amount": "15236000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00269",
+      "txn_id": "TXN-000180",
+      "amount": "6858000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00270",
+      "txn_id": "TXN-000107",
+      "amount": "3478000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00272",
+      "txn_id": "TXN-000279",
+      "amount": "3047000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00273",
+      "txn_id": "TXN-000134",
+      "amount": "2533000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00274",
+      "txn_id": "TXN-000124",
+      "amount": "936000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00276",
+      "txn_id": "TXN-000037",
+      "amount": "3126000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00277",
+      "txn_id": "TXN-000120",
+      "amount": "1656000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00278",
+      "txn_id": "TXN-000226",
+      "amount": "2698000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00279",
+      "txn_id": "TXN-000202",
+      "amount": "787000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00281",
+      "txn_id": "TXN-000032",
+      "amount": "7176000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00282",
+      "txn_id": "TXN-000061",
+      "amount": "332000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00283",
+      "txn_id": "TXN-000135",
+      "amount": "718000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00284",
+      "txn_id": "TXN-000203",
+      "amount": "2140000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00285",
+      "txn_id": "TXN-000194",
+      "amount": "3455000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00286",
+      "txn_id": "TXN-000006",
+      "amount": "2727000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00287",
+      "txn_id": "TXN-000215",
+      "amount": "755000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00288",
+      "txn_id": "TXN-000284",
+      "amount": "2052000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00289",
+      "txn_id": "TXN-000072",
+      "amount": "1517000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00290",
+      "txn_id": "TXN-000151",
+      "amount": "306000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00291",
+      "txn_id": "TXN-000261",
+      "amount": "360000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00292",
+      "txn_id": "TXN-000077",
+      "amount": "4545000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00293",
+      "txn_id": "TXN-000012",
+      "amount": "1673000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00294",
+      "txn_id": "TXN-000170",
+      "amount": "763000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00295",
+      "txn_id": "TXN-000017",
+      "amount": "716000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00296",
+      "txn_id": "TXN-000130",
+      "amount": "1053000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00297",
+      "txn_id": "TXN-000283",
+      "amount": "1810000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00298",
+      "txn_id": "TXN-000238",
+      "amount": "2281000",
+      "scenario": "no_reference"
+    },
+    {
+      "order_id": "ORD2026-00299",
+      "txn_id": "TXN-000228",
+      "amount": "1791000",
+      "scenario": "exact_reference"
+    },
+    {
+      "order_id": "ORD2026-00300",
+      "txn_id": "TXN-000195",
+      "amount": "4511000",
+      "scenario": "exact_reference"
+    }
+  ],
+  "closed_order_payments": [],
+  "duplicate_txn_ids": [],
+  "duplicate_order_ids": [],
+  "order_scenarios": {
+    "ORD2026-00001": "exact_reference",
+    "ORD2026-00002": "no_reference",
+    "ORD2026-00003": "exact_reference",
+    "ORD2026-00004": "exact_reference",
+    "ORD2026-00005": "exact_reference",
+    "ORD2026-00006": "exact_reference",
+    "ORD2026-00007": "exact_reference",
+    "ORD2026-00008": "exact_reference",
+    "ORD2026-00009": "exact_reference",
+    "ORD2026-00010": "exact_reference",
+    "ORD2026-00011": "no_reference",
+    "ORD2026-00012": "exact_reference",
+    "ORD2026-00013": "exact_reference",
+    "ORD2026-00014": "exact_reference",
+    "ORD2026-00015": "exact_reference",
+    "ORD2026-00016": "missing_payment",
+    "ORD2026-00017": "exact_reference",
+    "ORD2026-00018": "exact_reference",
+    "ORD2026-00019": "exact_reference",
+    "ORD2026-00020": "exact_reference",
+    "ORD2026-00021": "exact_reference",
+    "ORD2026-00022": "exact_reference",
+    "ORD2026-00023": "exact_reference",
+    "ORD2026-00024": "exact_reference",
+    "ORD2026-00025": "missing_payment",
+    "ORD2026-00026": "missing_payment",
+    "ORD2026-00027": "exact_reference",
+    "ORD2026-00028": "exact_reference",
+    "ORD2026-00029": "missing_payment",
+    "ORD2026-00030": "exact_reference",
+    "ORD2026-00031": "exact_reference",
+    "ORD2026-00032": "exact_reference",
+    "ORD2026-00033": "exact_reference",
+    "ORD2026-00034": "no_reference",
+    "ORD2026-00035": "exact_reference",
+    "ORD2026-00036": "exact_reference",
+    "ORD2026-00037": "exact_reference",
+    "ORD2026-00038": "exact_reference",
+    "ORD2026-00039": "exact_reference",
+    "ORD2026-00040": "exact_reference",
+    "ORD2026-00041": "exact_reference",
+    "ORD2026-00042": "exact_reference",
+    "ORD2026-00043": "exact_reference",
+    "ORD2026-00044": "exact_reference",
+    "ORD2026-00045": "exact_reference",
+    "ORD2026-00046": "exact_reference",
+    "ORD2026-00047": "no_reference",
+    "ORD2026-00048": "exact_reference",
+    "ORD2026-00049": "exact_reference",
+    "ORD2026-00050": "exact_reference",
+    "ORD2026-00051": "exact_reference",
+    "ORD2026-00052": "no_reference",
+    "ORD2026-00053": "exact_reference",
+    "ORD2026-00054": "exact_reference",
+    "ORD2026-00055": "no_reference",
+    "ORD2026-00056": "exact_reference",
+    "ORD2026-00057": "exact_reference",
+    "ORD2026-00058": "exact_reference",
+    "ORD2026-00059": "exact_reference",
+    "ORD2026-00060": "exact_reference",
+    "ORD2026-00061": "exact_reference",
+    "ORD2026-00062": "exact_reference",
+    "ORD2026-00063": "exact_reference",
+    "ORD2026-00064": "exact_reference",
+    "ORD2026-00065": "exact_reference",
+    "ORD2026-00066": "exact_reference",
+    "ORD2026-00067": "exact_reference",
+    "ORD2026-00068": "exact_reference",
+    "ORD2026-00069": "exact_reference",
+    "ORD2026-00070": "exact_reference",
+    "ORD2026-00071": "no_reference",
+    "ORD2026-00072": "exact_reference",
+    "ORD2026-00073": "exact_reference",
+    "ORD2026-00074": "no_reference",
+    "ORD2026-00075": "exact_reference",
+    "ORD2026-00076": "exact_reference",
+    "ORD2026-00077": "exact_reference",
+    "ORD2026-00078": "exact_reference",
+    "ORD2026-00079": "no_reference",
+    "ORD2026-00080": "exact_reference",
+    "ORD2026-00081": "missing_payment",
+    "ORD2026-00082": "exact_reference",
+    "ORD2026-00083": "exact_reference",
+    "ORD2026-00084": "exact_reference",
+    "ORD2026-00085": "exact_reference",
+    "ORD2026-00086": "exact_reference",
+    "ORD2026-00087": "exact_reference",
+    "ORD2026-00088": "no_reference",
+    "ORD2026-00089": "exact_reference",
+    "ORD2026-00090": "no_reference",
+    "ORD2026-00091": "no_reference",
+    "ORD2026-00092": "exact_reference",
+    "ORD2026-00093": "exact_reference",
+    "ORD2026-00094": "exact_reference",
+    "ORD2026-00095": "exact_reference",
+    "ORD2026-00096": "exact_reference",
+    "ORD2026-00097": "exact_reference",
+    "ORD2026-00098": "exact_reference",
+    "ORD2026-00099": "exact_reference",
+    "ORD2026-00100": "exact_reference",
+    "ORD2026-00101": "exact_reference",
+    "ORD2026-00102": "no_reference",
+    "ORD2026-00103": "no_reference",
+    "ORD2026-00104": "exact_reference",
+    "ORD2026-00105": "exact_reference",
+    "ORD2026-00106": "exact_reference",
+    "ORD2026-00107": "exact_reference",
+    "ORD2026-00108": "exact_reference",
+    "ORD2026-00109": "no_reference",
+    "ORD2026-00110": "missing_payment",
+    "ORD2026-00111": "exact_reference",
+    "ORD2026-00112": "no_reference",
+    "ORD2026-00113": "exact_reference",
+    "ORD2026-00114": "missing_payment",
+    "ORD2026-00115": "missing_payment",
+    "ORD2026-00116": "exact_reference",
+    "ORD2026-00117": "exact_reference",
+    "ORD2026-00118": "exact_reference",
+    "ORD2026-00119": "exact_reference",
+    "ORD2026-00120": "exact_reference",
+    "ORD2026-00121": "exact_reference",
+    "ORD2026-00122": "exact_reference",
+    "ORD2026-00123": "exact_reference",
+    "ORD2026-00124": "no_reference",
+    "ORD2026-00125": "exact_reference",
+    "ORD2026-00126": "exact_reference",
+    "ORD2026-00127": "exact_reference",
+    "ORD2026-00128": "exact_reference",
+    "ORD2026-00129": "no_reference",
+    "ORD2026-00130": "exact_reference",
+    "ORD2026-00131": "missing_payment",
+    "ORD2026-00132": "exact_reference",
+    "ORD2026-00133": "exact_reference",
+    "ORD2026-00134": "exact_reference",
+    "ORD2026-00135": "no_reference",
+    "ORD2026-00136": "no_reference",
+    "ORD2026-00137": "exact_reference",
+    "ORD2026-00138": "exact_reference",
+    "ORD2026-00139": "exact_reference",
+    "ORD2026-00140": "exact_reference",
+    "ORD2026-00141": "exact_reference",
+    "ORD2026-00142": "exact_reference",
+    "ORD2026-00143": "exact_reference",
+    "ORD2026-00144": "exact_reference",
+    "ORD2026-00145": "exact_reference",
+    "ORD2026-00146": "exact_reference",
+    "ORD2026-00147": "no_reference",
+    "ORD2026-00148": "exact_reference",
+    "ORD2026-00149": "exact_reference",
+    "ORD2026-00150": "exact_reference",
+    "ORD2026-00151": "exact_reference",
+    "ORD2026-00152": "missing_payment",
+    "ORD2026-00153": "exact_reference",
+    "ORD2026-00154": "exact_reference",
+    "ORD2026-00155": "exact_reference",
+    "ORD2026-00156": "exact_reference",
+    "ORD2026-00157": "exact_reference",
+    "ORD2026-00158": "exact_reference",
+    "ORD2026-00159": "exact_reference",
+    "ORD2026-00160": "exact_reference",
+    "ORD2026-00161": "exact_reference",
+    "ORD2026-00162": "exact_reference",
+    "ORD2026-00163": "exact_reference",
+    "ORD2026-00164": "no_reference",
+    "ORD2026-00165": "exact_reference",
+    "ORD2026-00166": "exact_reference",
+    "ORD2026-00167": "exact_reference",
+    "ORD2026-00168": "exact_reference",
+    "ORD2026-00169": "exact_reference",
+    "ORD2026-00170": "exact_reference",
+    "ORD2026-00171": "exact_reference",
+    "ORD2026-00172": "exact_reference",
+    "ORD2026-00173": "no_reference",
+    "ORD2026-00174": "exact_reference",
+    "ORD2026-00175": "exact_reference",
+    "ORD2026-00176": "exact_reference",
+    "ORD2026-00177": "exact_reference",
+    "ORD2026-00178": "exact_reference",
+    "ORD2026-00179": "exact_reference",
+    "ORD2026-00180": "missing_payment",
+    "ORD2026-00181": "exact_reference",
+    "ORD2026-00182": "missing_payment",
+    "ORD2026-00183": "exact_reference",
+    "ORD2026-00184": "no_reference",
+    "ORD2026-00185": "exact_reference",
+    "ORD2026-00186": "exact_reference",
+    "ORD2026-00187": "no_reference",
+    "ORD2026-00188": "exact_reference",
+    "ORD2026-00189": "exact_reference",
+    "ORD2026-00190": "no_reference",
+    "ORD2026-00191": "exact_reference",
+    "ORD2026-00192": "exact_reference",
+    "ORD2026-00193": "exact_reference",
+    "ORD2026-00194": "exact_reference",
+    "ORD2026-00195": "exact_reference",
+    "ORD2026-00196": "exact_reference",
+    "ORD2026-00197": "exact_reference",
+    "ORD2026-00198": "exact_reference",
+    "ORD2026-00199": "exact_reference",
+    "ORD2026-00200": "exact_reference",
+    "ORD2026-00201": "exact_reference",
+    "ORD2026-00202": "no_reference",
+    "ORD2026-00203": "exact_reference",
+    "ORD2026-00204": "exact_reference",
+    "ORD2026-00205": "exact_reference",
+    "ORD2026-00206": "no_reference",
+    "ORD2026-00207": "no_reference",
+    "ORD2026-00208": "exact_reference",
+    "ORD2026-00209": "exact_reference",
+    "ORD2026-00210": "exact_reference",
+    "ORD2026-00211": "exact_reference",
+    "ORD2026-00212": "exact_reference",
+    "ORD2026-00213": "no_reference",
+    "ORD2026-00214": "no_reference",
+    "ORD2026-00215": "exact_reference",
+    "ORD2026-00216": "exact_reference",
+    "ORD2026-00217": "exact_reference",
+    "ORD2026-00218": "exact_reference",
+    "ORD2026-00219": "exact_reference",
+    "ORD2026-00220": "exact_reference",
+    "ORD2026-00221": "exact_reference",
+    "ORD2026-00222": "exact_reference",
+    "ORD2026-00223": "no_reference",
+    "ORD2026-00224": "exact_reference",
+    "ORD2026-00225": "exact_reference",
+    "ORD2026-00226": "exact_reference",
+    "ORD2026-00227": "no_reference",
+    "ORD2026-00228": "exact_reference",
+    "ORD2026-00229": "exact_reference",
+    "ORD2026-00230": "exact_reference",
+    "ORD2026-00231": "exact_reference",
+    "ORD2026-00232": "exact_reference",
+    "ORD2026-00233": "exact_reference",
+    "ORD2026-00234": "exact_reference",
+    "ORD2026-00235": "exact_reference",
+    "ORD2026-00236": "no_reference",
+    "ORD2026-00237": "exact_reference",
+    "ORD2026-00238": "exact_reference",
+    "ORD2026-00239": "exact_reference",
+    "ORD2026-00240": "no_reference",
+    "ORD2026-00241": "exact_reference",
+    "ORD2026-00242": "exact_reference",
+    "ORD2026-00243": "exact_reference",
+    "ORD2026-00244": "exact_reference",
+    "ORD2026-00245": "no_reference",
+    "ORD2026-00246": "exact_reference",
+    "ORD2026-00247": "exact_reference",
+    "ORD2026-00248": "exact_reference",
+    "ORD2026-00249": "exact_reference",
+    "ORD2026-00250": "no_reference",
+    "ORD2026-00251": "exact_reference",
+    "ORD2026-00252": "exact_reference",
+    "ORD2026-00253": "exact_reference",
+    "ORD2026-00254": "exact_reference",
+    "ORD2026-00255": "no_reference",
+    "ORD2026-00256": "exact_reference",
+    "ORD2026-00257": "exact_reference",
+    "ORD2026-00258": "exact_reference",
+    "ORD2026-00259": "no_reference",
+    "ORD2026-00260": "exact_reference",
+    "ORD2026-00261": "exact_reference",
+    "ORD2026-00262": "exact_reference",
+    "ORD2026-00263": "no_reference",
+    "ORD2026-00264": "no_reference",
+    "ORD2026-00265": "exact_reference",
+    "ORD2026-00266": "exact_reference",
+    "ORD2026-00267": "exact_reference",
+    "ORD2026-00268": "exact_reference",
+    "ORD2026-00269": "exact_reference",
+    "ORD2026-00270": "exact_reference",
+    "ORD2026-00271": "missing_payment",
+    "ORD2026-00272": "exact_reference",
+    "ORD2026-00273": "exact_reference",
+    "ORD2026-00274": "exact_reference",
+    "ORD2026-00275": "missing_payment",
+    "ORD2026-00276": "exact_reference",
+    "ORD2026-00277": "exact_reference",
+    "ORD2026-00278": "no_reference",
+    "ORD2026-00279": "exact_reference",
+    "ORD2026-00280": "missing_payment",
+    "ORD2026-00281": "exact_reference",
+    "ORD2026-00282": "exact_reference",
+    "ORD2026-00283": "exact_reference",
+    "ORD2026-00284": "exact_reference",
+    "ORD2026-00285": "exact_reference",
+    "ORD2026-00286": "exact_reference",
+    "ORD2026-00287": "exact_reference",
+    "ORD2026-00288": "no_reference",
+    "ORD2026-00289": "exact_reference",
+    "ORD2026-00290": "exact_reference",
+    "ORD2026-00291": "exact_reference",
+    "ORD2026-00292": "exact_reference",
+    "ORD2026-00293": "no_reference",
+    "ORD2026-00294": "exact_reference",
+    "ORD2026-00295": "exact_reference",
+    "ORD2026-00296": "exact_reference",
+    "ORD2026-00297": "exact_reference",
+    "ORD2026-00298": "no_reference",
+    "ORD2026-00299": "exact_reference",
+    "ORD2026-00300": "exact_reference"
+  }
+}

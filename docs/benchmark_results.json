@@ -1,0 +1,162 @@
+{
+  "machine": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel"
+  },
+  "sizes": [
+    {
+      "orders": 300,
+      "bank_lines": 308,
+      "seed": 2026,
+      "seconds": {
+        "read_xlsx": 0.041,
+        "normalize_validate": 0.085,
+        "matching": 0.053,
+        "allocate_and_invariants": 0.033,
+        "xlsx_report": 0.113
+      },
+      "matching_stage_seconds": {
+        "duplicates": 0.0017,
+        "reference": 0.031,
+        "amount_date": 0.0049,
+        "composite": 0.0024,
+        "fuzzy": 0.0002,
+        "total": 0.0503
+      },
+      "peak_memory_mb_matching": 0.8,
+      "report_bytes": 44505,
+      "precision": 1.0,
+      "recall": 0.8860294117647058,
+      "incorrect_auto": 0,
+      "review_coverage": 1.0,
+      "integrity_ok": true
+    },
+    {
+      "orders": 1000,
+      "bank_lines": 1037,
+      "seed": 2026,
+      "seconds": {
+        "read_xlsx": 0.087,
+        "normalize_validate": 0.281,
+        "matching": 0.184,
+        "allocate_and_invariants": 0.108,
+        "xlsx_report": 0.232
+      },
+      "matching_stage_seconds": {
+        "duplicates": 0.0054,
+        "reference": 0.0967,
+        "amount_date": 0.0157,
+        "composite": 0.0217,
+        "fuzzy": 0.0016,
+        "total": 0.1741
+      },
+      "peak_memory_mb_matching": 2.7,
+      "report_bytes": 115295,
+      "precision": 1.0,
+      "recall": 0.8853362734288864,
+      "incorrect_auto": 0,
+      "review_coverage": 0.9955898566703418,
+      "integrity_ok": true
+    },
+    {
+      "orders": 5000,
+      "bank_lines": 5176,
+      "seed": 2026,
+      "seconds": {
+        "read_xlsx": 0.404,
+        "normalize_validate": 1.439,
+        "matching": 1.349,
+        "allocate_and_invariants": 0.953,
+        "xlsx_report": 1.952
+      },
+      "matching_stage_seconds": {
+        "duplicates": 0.0299,
+        "reference": 0.5131,
+        "amount_date": 0.0897,
+        "composite": 0.4695,
+        "fuzzy": 0.0228,
+        "total": 1.2967
+      },
+      "peak_memory_mb_matching": 12.7,
+      "report_bytes": 518504,
+      "precision": 1.0,
+      "recall": 0.8826384292962718,
+      "incorrect_auto": 0,
+      "review_coverage": 0.9982351643503199,
+      "integrity_ok": true
+    }
+  ],
+  "seeds": [
+    {
+      "seed": 1,
+      "precision": 1.0,
+      "recall": 0.8933823529411765,
+      "incorrect_auto": 0,
+      "review_coverage": 1.0
+    },
+    {
+      "seed": 2,
+      "precision": 1.0,
+      "recall": 0.8933823529411765,
+      "incorrect_auto": 0,
+      "review_coverage": 1.0
+    },
+    {
+      "seed": 3,
+      "precision": 1.0,
+      "recall": 0.875,
+      "incorrect_auto": 0,
+      "review_coverage": 1.0
+    },
+    {
+      "seed": 4,
+      "precision": 1.0,
+      "recall": 0.8823529411764706,
+      "incorrect_auto": 0,
+      "review_coverage": 0.9963235294117647
+    },
+    {
+      "seed": 5,
+      "precision": 1.0,
+      "recall": 0.875,
+      "incorrect_auto": 0,
+      "review_coverage": 1.0
+    },
+    {
+      "seed": 6,
+      "precision": 1.0,
+      "recall": 0.8897058823529411,
+      "incorrect_auto": 0,
+      "review_coverage": 1.0
+    },
+    {
+      "seed": 7,
+      "precision": 1.0,
+      "recall": 0.8786764705882353,
+      "incorrect_auto": 0,
+      "review_coverage": 0.9926470588235294
+    },
+    {
+      "seed": 8,
+      "precision": 1.0,
+      "recall": 0.8786764705882353,
+      "incorrect_auto": 0,
+      "review_coverage": 1.0
+    },
+    {
+      "seed": 9,
+      "precision": 1.0,
+      "recall": 0.8860294117647058,
+      "incorrect_auto": 0,
+      "review_coverage": 0.9963235294117647
+    },
+    {
+      "seed": 10,
+      "precision": 1.0,
+      "recall": 0.8970588235294118,
+      "incorrect_auto": 0,
+      "review_coverage": 0.9926470588235294
+    }
+  ]
+}

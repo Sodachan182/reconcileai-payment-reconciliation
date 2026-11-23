@@ -1,0 +1,176 @@
+{
+  "matching_unit": "(order_id, txn_id) association",
+  "ground_truth_pairs": 272,
+  "automatic": {
+    "tp": 241,
+    "fp": 0,
+    "fn": 31,
+    "precision": 1.0,
+    "recall": 0.8860294117647058,
+    "f1": 0.9395711500974658
+  },
+  "automatic_by_rule": {
+    "amount_date": {
+      "auto_pairs": 43,
+      "correct": 43,
+      "incorrect": 0,
+      "precision": 1.0
+    },
+    "exact_reference": {
+      "auto_pairs": 170,
+      "correct": 170,
+      "incorrect": 0,
+      "precision": 1.0
+    },
+    "multi_reference": {
+      "auto_pairs": 8,
+      "correct": 8,
+      "incorrect": 0,
+      "precision": 1.0
+    },
+    "split_reference": {
+      "auto_pairs": 20,
+      "correct": 20,
+      "incorrect": 0,
+      "precision": 1.0
+    }
+  },
+  "by_scenario": {
+    "ambiguous_name_pair": {
+      "pairs": 6,
+      "auto_matched": 0,
+      "auto_recall": 0.0,
+      "found_auto_or_suggested": 6,
+      "coverage": 1.0
+    },
+    "duplicate_order": {
+      "pairs": 1,
+      "auto_matched": 1,
+      "auto_recall": 1.0,
+      "found_auto_or_suggested": 1,
+      "coverage": 1.0
+    },
+    "exact_reference": {
+      "pairs": 160,
+      "auto_matched": 160,
+      "auto_recall": 1.0,
+      "found_auto_or_suggested": 160,
+      "coverage": 1.0
+    },
+    "late_reference": {
+      "pairs": 9,
+      "auto_matched": 9,
+      "auto_recall": 1.0,
+      "found_auto_or_suggested": 9,
+      "coverage": 1.0
+    },
+    "multi_no_reference": {
+      "pairs": 4,
+      "auto_matched": 0,
+      "auto_recall": 0.0,
+      "found_auto_or_suggested": 4,
+      "coverage": 1.0
+    },
+    "multi_reference": {
+      "pairs": 8,
+      "auto_matched": 8,
+      "auto_recall": 1.0,
+      "found_auto_or_suggested": 8,
+      "coverage": 1.0
+    },
+    "no_reference": {
+      "pairs": 36,
+      "auto_matched": 31,
+      "auto_recall": 0.8611111111111112,
+      "found_auto_or_suggested": 36,
+      "coverage": 1.0
+    },
+    "overpaid": {
+      "pairs": 4,
+      "auto_matched": 0,
+      "auto_recall": 0.0,
+      "found_auto_or_suggested": 4,
+      "coverage": 1.0
+    },
+    "partial_marked": {
+      "pairs": 8,
+      "auto_matched": 8,
+      "auto_recall": 1.0,
+      "found_auto_or_suggested": 8,
+      "coverage": 1.0
+    },
+    "same_amount_pair": {
+      "pairs": 12,
+      "auto_matched": 12,
+      "auto_recall": 1.0,
+      "found_auto_or_suggested": 12,
+      "coverage": 1.0
+    },
+    "split_no_reference": {
+      "pairs": 6,
+      "auto_matched": 0,
+      "auto_recall": 0.0,
+      "found_auto_or_suggested": 6,
+      "coverage": 1.0
+    },
+    "split_reference": {
+      "pairs": 12,
+      "auto_matched": 12,
+      "auto_recall": 1.0,
+      "found_auto_or_suggested": 12,
+      "coverage": 1.0
+    },
+    "underpaid": {
+      "pairs": 6,
+      "auto_matched": 0,
+      "auto_recall": 0.0,
+      "found_auto_or_suggested": 6,
+      "coverage": 1.0
+    }
+  },
+  "review_coverage": {
+    "suggested_pairs": 37,
+    "suggested_correct": 31,
+    "gt_pairs_found_auto_or_suggested": 272,
+    "coverage": 1.0
+  },
+  "amount_allocation_accuracy": {
+    "correct_pairs": 241,
+    "amount_exact": 241,
+    "rate": 1.0
+  },
+  "ambiguous_orders": 6,
+  "orders_needing_review": 28,
+  "duplicate_detection": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "closed_order_payments": {
+    "total": 6,
+    "flagged": 6,
+    "wrongly_allocated": []
+  },
+  "unmatched_order_detection": {
+    "tp": 22,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "orders_with_payment_in_truth": 263,
+  "integrity_ok": true,
+  "timings_seconds": {
+    "duplicates": 0.0003,
+    "reference": 0.0052,
+    "amount_date": 0.0008,
+    "composite": 0.0004,
+    "fuzzy": 0.0001,
+    "total": 0.0086
+  },
+  "reconcile_seconds": 0.0133
+}

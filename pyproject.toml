@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reconcileai"
+version = "1.0.0"
+description = "Automated payment reconciliation with explainable transaction matching, discrepancy detection, audit trails and Excel reporting."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+  "streamlit>=1.40",
+  "pandas>=2.2",
+  "openpyxl>=3.1",
+  "rapidfuzz>=3.9",
+  "pydantic>=2.7",
+  "plotly>=5.22",
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "hypothesis>=6.100", "ruff>=0.5", "playwright>=1.45"]
+
+[project.scripts]
+reconcileai = "reconcileai.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+ignore = ["E501", "B008", "SIM108"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["reconcileai"]

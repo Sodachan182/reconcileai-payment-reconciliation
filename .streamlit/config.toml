@@ -1,0 +1,65 @@
+[server]
+# Local-first: listen on this machine only. Uploaded financial data never leaves it.
+address = "127.0.0.1"
+port = 8501
+maxUploadSize = 25
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "type"
+
+[runner]
+magicEnabled = false
+
+[theme]
+font = "Geist:https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap"
+baseFontSize = 14
+baseRadius = "6px"
+buttonRadius = "6px"
+headingFontWeights = [600, 600, 600, 500, 500, 500]
+headingFontSizes = ["1.43rem", "1.15rem", "1rem", "0.93rem", "0.86rem", "0.86rem"]
+showWidgetBorder = true
+
+[theme.dark]
+base = "dark"
+primaryColor = "#7D91ED"
+backgroundColor = "#0D1015"
+secondaryBackgroundColor = "#1A1F27"
+textColor = "#F0F2F5"
+borderColor = "#2B323C"
+dataframeBorderColor = "#2B323C"
+dataframeHeaderBackgroundColor = "#14181F"
+linkColor = "#7D91ED"
+greenColor = "#66B79A"
+redColor = "#DC8585"
+orangeColor = "#DAB56F"
+chartCategoricalColors = ["#7D91ED", "#66B79A", "#DAB56F", "#DC8585", "#A6AFBB"]
+
+[theme.dark.sidebar]
+backgroundColor = "#14181F"
+secondaryBackgroundColor = "#1A1F27"
+borderColor = "#2B323C"
+
+[theme.light]
+base = "light"
+primaryColor = "#4157C9"
+backgroundColor = "#F7F8FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#151A21"
+borderColor = "#D5DAE1"
+dataframeBorderColor = "#D5DAE1"
+dataframeHeaderBackgroundColor = "#EEF0F3"
+linkColor = "#4157C9"
+greenColor = "#2F7D62"
+redColor = "#B23B3B"
+orangeColor = "#946C1F"
+chartCategoricalColors = ["#4157C9", "#2F7D62", "#946C1F", "#B23B3B", "#6B7584"]
+
+[theme.light.sidebar]
+backgroundColor = "#EEF0F3"
+secondaryBackgroundColor = "#FFFFFF"
+borderColor = "#D5DAE1"
